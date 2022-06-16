@@ -4,7 +4,7 @@ trigger:
 pool: default
 
 steps:
-- task: UseNodeNode16@1
+- task: UseNode16@1
   inputs:
       version: '14.4.0'
 - bash: node -v
