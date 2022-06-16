@@ -1,0 +1,8 @@
+trigger:
+- master
+
+pool: default
+
+steps:
+- task: UseNodeNode16@1
+  
