@@ -6,6 +6,6 @@ pool: default
 steps:
 - task: UseNode16@1
   inputs:
-      version: '14.4.0'
+      version: '8.0.0'
 - bash: node -v
   
